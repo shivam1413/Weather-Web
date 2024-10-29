@@ -3,6 +3,7 @@ import TextField from '@mui/material/TextField';
 import Button from '@mui/material/Button';
 import Snackbar from '@mui/material/Snackbar';
 import MuiAlert from '@mui/material/Alert';
+import API_KEY from './config/apiConfig'; // Import the API key
 import "./SearchBox.css";
 
 export default function SearchBox({ updateInfo }) {
@@ -13,8 +14,7 @@ export default function SearchBox({ updateInfo }) {
 
     const API_URL = "http://api.openweathermap.org/geo/1.0/direct";
     const WEATHER_API_URL = "https://api.openweathermap.org/data/2.5/weather";
-    const API_KEY = "d2fce59dbae8bf426f126aa1a92e037e";
-    
+
     const getWeatherInfo = async () => {
         try {
             const response = await fetch(`${API_URL}?q=${city}&limit=1&appid=${API_KEY}`);
