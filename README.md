@@ -19,3 +19,6 @@ React: For building the user interface.
 Material-UI: For UI components like Cards, Buttons, and TextField.
 OpenWeatherMap API: To fetch real-time weather data.
 JavaScript (ES6+): For asynchronous API calls and state management with hooks.
+
+
+
