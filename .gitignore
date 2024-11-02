@@ -1,4 +1,5 @@
 # Logs
+.env
 logs
 *.log
 npm-debug.log*
@@ -8,15 +9,18 @@ pnpm-debug.log*
 lerna-debug.log*
 
 # Node modules and distribution folders
-node_modules
-dist
-dist-ssr
+node_modules/
+dist/
+dist-ssr/
 *.local
 
+# Environment files
+
+
 # Editor directories and files
-.vscode/*
+.vscode/
 !.vscode/extensions.json
-.idea
+.idea/
 .DS_Store
 *.suo
 *.ntvs*
@@ -24,5 +28,4 @@ dist-ssr
 *.sln
 *.sw?
 
-# Ignore the entire config folder
-config/*
+
