@@ -1,6 +1,5 @@
 
 import "./App.css"
-import "./app.css"
 import WeatherApp from "./WeatherApp"
 
 function App() {
